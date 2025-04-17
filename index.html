@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Leading AC repair and spare parts provider in Noida with 25+ years of experience. Reliable, affordable, and high-quality service for all major AC brands."
+    />
+    <title>Air System Enterprises</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="responsiveMobile.css" />
+    <link rel="stylesheet" href="icon.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div onclick="makeCall()" class="call-logo">
+      <i class="fa-solid fa-phone"></i>
+    </div>
+    <div onclick="openWhatsApp()" class="whatsapp-logo">
+      <i class="fa-brands fa-square-whatsapp"></i>
+    </div>
+    <div class="menubar-slide">
+      <i class="fa-solid fa-xmark" id="cross"></i>
+      <a href="#herosection" class="tags-menubar-slide">Home</a>
+      <a href="/gallery.html" class="tags-menubar-slide">Gallery</a>
+      <a href="#services-section" class="tags-menubar-slide">Services</a>
+      <a href="#aboutus-section-prt-1" class="tags-menubar-slide">About</a>
+      <a href="#contact-us" class="tags-menubar-slide">Contact Us</a>
+    </div>
+    <div class="landing-page">
+      <nav class="navbar">
+        <div class="leftside-nav">
+          <div class="logo">
+            <img
+              loading="eager"
+              src="/asset/logo.webp"
+              alt="logo"
+              class="img-logo"
+            />
+          </div>
+        </div>
+        <div class="rightside-nav">
+          <div class="anchor-tags">
+            <a href="#herosection" class="tags">Home</a>
+            <a href="/gallery.html" class="tags">Gallery</a>
+            <a href="#services-section" class="tags">Services</a>
+            <a href="#aboutus-section-prt-1" class="tags">About</a>
+            <a href="#contact-us" class="tags">Contact us</a>
+            <a href="#" class="menubar">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div id="herosection">
+        <div class="overlay-hero"></div>
+        <div class="left-side-hero">
+          <h1 class="heading-hero">
+            Air System Enterprises - Complete AC Solutions: Repair,Rentals,
+            Sales & Spare Parts!
+          </h1>
+          <p class="para-hero">
+            Expert AC Repair & Maintenance |Affordable Rentals |Quality
+            Second-Hand ACs |Genuine Spare Parts Keep your space cool with our
+            reliable air conditioning services.From quick repairs to long-term
+            rentals and authentic spare parts, we've got you covered!
+          </p>
+          <button onclick="bookService()" class="btn-hero">
+            <i class="fa-solid fa-screwdriver-wrench"></i>Book a Service
+          </button>
+        </div>
+        <div class="right-side-hero">
+          <img
+            loading="eager"
+            src="/asset/hero-1.webp"
+            alt="img"
+            class="right-side-hero-img"
+            id="img-1"
+          />
+          <img
+            loading="eager"
+            src="/asset/hero-2.webp"
+            alt="img"
+            class="right-side-hero-img"
+            id="img-2"
+          />
+          <img
+            loading="eager"
+            src="/asset/about-1.webp"
+            alt="img"
+            class="right-side-hero-img"
+            id="img-3"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="services-section">
+      <div class="top-service-section">
+        <h1 class="hdng-service">Our Services</h1>
+      </div>
+      <div class="bottom-service-section">
+        <div class="top-section-srvc-section">
+          <div class="section-srvc-sctn" id="srvc-sctn-1">
+            <div class="sctn-1-srvc">
+              <img
+                src="/asset/spare-prts.webp"
+                alt="srvc-img-1"
+                class="sctn-img"
+                height="200px"
+                width="400px"
+              />
+            </div>
+            <div class="sctn-2-srvc">
+              <h1 class="hdng-srvc-sctn">Spare Parts</h1>
+              <p class="srvc-sctn-btn">
+                We provide genuine spare parts for all types of air conditioners
+                to ensure reliable and long-lasting repairs.
+              </p>
+            </div>
+          </div>
+          <div class="section-srvc-sctn" id="srvc-sctn-2">
+            <div class="sctn-1-srvc">
+              <img
+                src="/asset/second-hand.webp"
+                alt="img-2"
+                class="sctn-img"
+                height="200px"
+                width="250px"
+              />
+            </div>
+            <div class="sctn-2-srvc">
+              <h1 class="hdng-srvc-sctn">Second-Hand Ac</h1>
+              <p class="srvc-sctn-btn">
+                Get a high-quality second-hand AC at an affordable price.
+              </p>
+            </div>
+          </div>
+          <div class="section-srvc-sctn" id="srvc-sctn-3">
+            <div class="sctn-1-srvc">
+              <img
+                src="/asset/rental-ac.webp"
+                alt="img-3"
+                class="sctn-img"
+                id="rental-img"
+                height="200px"
+                width="250px"
+              />
+            </div>
+            <div class="sctn-2-srvc">
+              <h1 class="hdng-srvc-sctn">Rental Ac</h1>
+              <p class="srvc-sctn-btn">
+                Air conditioners available for rent – affordable rates, fast
+                installation, and reliable cooling for your home or office!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-section-srvc-section">
+          <div class="section-botm-srvc-sctn" id="sctn-btm-srvc-sctn-1">
+            <div class="srvc-sctn-img">
+              <img
+                src="/asset/about- 2.webp"
+                alt="img-4"
+                class="img-srvc"
+                height="200px"
+                width="250px"
+              />
+            </div>
+            <div class="cntn-sctn-srvc">
+              <h1 class="srvc-sctn-hdng">Ac Installation</h1>
+              <p class="srvc-sctn-btn-bottom">
+                We provide fast and reliable air conditioner installation
+                services to ensure your home or office stays cool and
+                comfortable.
+              </p>
+            </div>
+          </div>
+          <div class="section-botm-srvc-sctn" id="sctn-btm-srvc-sctn-2">
+            <div class="srvc-sctn-img">
+              <img
+                src="/asset/servicing.webp"
+                alt="img-5"
+                class="img-srvc"
+                height="200px"
+                width="250px"
+              />
+            </div>
+            <div class="cntn-sctn-srvc">
+              <h1 class="srvc-sctn-hdng">Ac Repairing</h1>
+              <p class="srvc-sctn-btn-bottom">
+                Reliable and Affordable AC Repair - Fast & Efficient!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="aboutus-section-prt-1">
+      <div class="top-section-about">
+        <h1 class="hdng-about-top">
+          25+ Years of Excellence in AC Service & Spare Parts
+        </h1>
+        <p class="para-about-top">
+          Looking for reliable AC repair services or genuine spare parts? You're
+          in the right place! At Air System Enterprises, we bring over 25 years
+          of experience in air conditioning repair, maintenance, and spare parts
+          supply. Whether it's a quick fix or a full unit service, our skilled
+          technicians ensure your comfort all year round.
+        </p>
+        <div class="elemnts-about-top">
+          <div class="elmts-about-top" id="elmts-about-top-1">
+            <h1 class="elmt-hdng">25+ Years of experience</h1>
+            <p class="para-div-elmt">
+              With over 25 years of experience, we've earned a reputation for
+              reliable AC repairs and genuine spare parts you can trust.
+            </p>
+          </div>
+          <div class="elmts-about-top" id="elmts-about-top-2">
+            <h1 class="elmt-hdng">Customer satisfaction</h1>
+            <p class="para-div-elmt">
+              Customer satisfaction is our top priority, and we go the extra
+              mile to ensure every job is done right the first time.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-section-about">
+        <h1 class="about-ase">About Air System Enterprises</h1>
+        <div class="content-about-ase">
+          <img
+            src="/asset/about-us.webp"
+            loading="eager"
+            alt="about-img"
+            class="about-us-img"
+            height="200px"
+            width="200px"
+          />
+          <p class="para-about-ase">
+            Welcome to Air System Enterprises, your one-stop solution for
+            everything related to air conditioning! With over 25 years of
+            experience in the industry, we have built a solid reputation for
+            delivering high-quality AC services and products across the region.
+            Whether you're looking for genuine AC spare parts, want to rent an
+            air conditioner, buy a refurbished second-hand AC, or need fast and
+            reliable servicing, we’ve got you covered.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="aboutus-section-prt-2">
+      <div class="top-about-sctn-prt-2">
+        <h1 class="prt-2-about-hdng">Why Choose Us?</h1>
+        <p class="prt-2-about-para">
+          We deliver reliable, affordable, and high-quality AC repair and spare
+          parts services.
+        </p>
+      </div>
+      <div class="middle-about-sctn-prt-2">
+        <div class="content-slider-about-prt-2" id="cntn-slider-abt-prt-2-1">
+          <div class="img-choose-us">
+            <img
+              src="/asset/experience-servce.webp"
+              alt="img-chose-1"
+              class="img-chose-us"
+            />
+          </div>
+          <h1 class="choose-us-hdng">Experienced Technicians</h1>
+          <p class="choose-us-para">
+            Our team is trained, certified, and backed by decades of hands-on
+            experience with all major AC brands.
+          </p>
+        </div>
+        <div class="content-slider-about-prt-2" id="cntn-slider-abt-prt-2-2">
+          <div class="img-choose-us">
+            <img
+              src="/asset/affordable-img.webp"
+              alt="img-chose-2"
+              class="img-chose-us"
+            />
+          </div>
+          <h1 class="choose-us-hdng">Affordable Pricing</h1>
+          <p class="choose-us-para">
+            We believe in fair pricing with no hidden costs. Get top-notch
+            service without overpaying.
+          </p>
+        </div>
+        <div class="content-slider-about-prt-2" id="cntn-slider-abt-prt-2-3">
+          <div class="img-choose-us">
+            <img
+              src="/asset/fast-relable.webp"
+              alt="img-chose-3"
+              class="img-chose-us"
+            />
+          </div>
+          <h1 class="choose-us-hdng">Fast & Reliable Service</h1>
+          <p class="choose-us-para">
+            Whether it’s a routine check or an urgent repair, we respond quickly
+            and get the job done right the first time.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="contact-us">
+      <div class="upr-prt-cntc-us">
+        <h1 class="hdng-cntc-us">Contact us</h1>
+      </div>
+      <div class="lwr-prt-cntc-us">
+        <div class="right-side-cntc">
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3502.1285808812177!2d77.42189797550054!3d28.625908175668307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDM3JzMzLjMiTiA3N8KwMjUnMjguMSJF!5e0!3m2!1sen!2sin!4v1744375964843!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="left-side-cntc">
+          <div class="upr-lft-cntc">
+            <a
+              href="https://maps.app.goo.gl/PgBubmzPm6d9GxLH7"
+              class="cntc-lctn"
+            >
+              <i class="fa-solid fa-location-dot"></i> Shop No. 1, Gaur city-2, (Back Side Guru Dawara)
+              
+            </a>
+            <a href="mailto:singhrajkumar125@gmail.com" class="cntc-gml">
+              <i class="fa-regular fa-envelope"></i> singhrajkumar125@gmail.com
+            </a>
+            <a href="tel:+917836840700" class="cntc-mobile">
+              <i class="fa-solid fa-phone"></i>
+              +917836840700
+            </a>
+          </div>
+          <div class="lwr-lft-cntc">
+            <div class="cntc-icons">
+              <a
+                href="https://www.instagram.com/air_system_enterprises_?igsh=YXZpcmlibXhrbTkw"
+                class="cntc-icon"
+                id="insta"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/share/15dAN6UDbE/"
+                class="cntc-icon"
+                id="face"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a
+                href="https://wa.me/917836840700?text=Hi%2C%20I'd%20like%20to%20book%20a%20service."
+                target="_blank"
+                class="cntc-icon"
+                id="whatsapp"
+              >
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a
+                href="mailto:singhrajkumar125@gmail.com"
+                class="cntc-icon"
+                id="gml"
+              >
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+              <a
+                href="https://maps.app.goo.gl/ShPioQQa9s6F7o479"
+                class="cntc-icon"
+                id="lctn"
+              >
+                <i class="fa-solid fa-location-dot"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="upr-ftr-prt">
+        <div class="lft-prt-ftr">
+          <h1 class="ftr-srvc-hdng"><u>Our Services</u></h1>
+          <a href="#" class="ftr-srvc-anchr">Spare Parts</a>
+          <a href="#" class="ftr-srvc-anchr">Second-Hand AC</a>
+          <a href="#" class="ftr-srvc-anchr">Rental AC</a>
+          <a href="#" class="ftr-srvc-anchr">AC Installation</a>
+          <a href="#" class="ftr-srvc-anchr">AC Repair</a>
+        </div>
+        <div class="rght-prt-ftr">
+          <h1 class="rght-ftr-link-hdng"><u>Useful Links</u></h1>
+          <a href="#herosection" class="rght-ftr-link-anchr">Home</a>
+          <a href="#services-section" class="rght-ftr-link-anchr">Services</a>
+          <a href="#aboutus-section-prt-1" class="rght-ftr-link-anchr">About</a>
+          <a href="#contact-us" class="rght-ftr-link-anchr">Contact</a>
+        </div>
+      </div>
+      <div class="lwr-ftr-prt">
+        <div class="cpyrt-cntnr">
+          <i class="fa-regular fa-copyright"></i>
+          <p class="cpyrt">2025 Air System Enterprises. All Rights Reserved.</p>
+        </div>
+        <div class="mdby-cntnr">
+          <p class="mdby">Web page made by:-</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
+      integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"
+      integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
